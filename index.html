@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Señor Costillas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="nav" aria-label="Menú principal">
+      <!-- Cambié div.logo a h1 para semántica -->
+      <h1 class="logo">Señor Costillas</h1>
+      <ul class="menu">
+        <li><a href="#inicio">Página De Inicio</a></li>
+        <li><a href="#quienes">Sobre Nosotros</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+<div class="hero-texto">
+  <div class="cuadro-blanco">
+    <h2>Bienvenidos a<br>Señor Costillas</h2> 
+     <p>Un festín para tus sentidos</p>
+    <hr class="subrayado">
+  </div>
+</div>
+  </header>
+
+  <!-- Secciones siguientes se pueden agregar aquí -->
+
+  <section class="quienes" id="quienes">
+    <div class="contenido">
+      <img src="img/quienes-somos.png" alt="Quienes somos en Señor Costillas">
+      <div>
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenido a Señor Costillas, el lugar donde la comida rápida se transforma en una experiencia gourmet. Nuestra misión es ofrecer platillos deliciosos y rápidos, sin sacrificar la calidad. Desde jugosas costillas hasta crujientes papas fritas, cada bocado es una explosión de sabor. Navega nuestro Menú para ver nuestras ofertas irresistibles y no te pierdas nuestras Promociones especiales. Visita nuestra Galería para ver lo mejor de nuestro local y nuestros platillos. ¡Te esperamos!</p>
+      </div>
+    </div>
+  </section>
+
+<section class="destacados" id="menu">
+  <h2>Productos Destacados</h2>
+  <div class="tarjetas">
+    <article class="tarjeta">
+      <img src="Fondo.png" alt="Hamburguesa BBQ real">
+      </div>
+    </article>
+
+    <article class="tarjeta">
+      <img src="img/menu/alitas-picantes-real.jpg" alt="Alitas Picantes reales">
+      <div class="contenido-tarjeta">
+        <h3>Alitas Picantes</h3>
+        <p>8 piezas bañadas en salsa búfalo con aderezo ranch y apio.</p>
+        <span class="precio">$100.00</span>
+        <button class="boton-ver">Ver más</button>
+      </div>
+    </article>
+
+    <article class="tarjeta">
+      <img src="img/menu/papas-queso-real.jpg" alt="Papas con queso reales">
+      <div class="contenido-tarjeta">
+        <h3>Papas con Queso</h3>
+        <p>Papas fritas cubiertas con queso fundido y trozos de tocino.</p>
+        <span class="precio">$80.00</span>
+        <button class="boton-ver">Ver más</button>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+  <section class="galeria" id="galeria" aria-label="Galería de imágenes">
+    <h2>Galería</h2>
+    <div class="imagenes">
+      <img src="img/quienes-somos.png" alt="Interior del local Señor Costillas" height="345">
+      <img src="img/quienes-somos.png" alt="Clientes felices en Señor Costillas" height="200">
+      <img src="img/quienes-somos.png" alt="Comida deliciosa de Señor Costillas" height="200">
+    </div>
+  </section>
+
+
+<section class="contacto" id="contacto">
+  <h2>Contacto</h2>
+  <form class="formulario">
+    <input type="text" placeholder="Nombre" required>
+    <input type="tel" placeholder="Número de teléfono" pattern="[0-9]{10}" title="Ingrese un número de 10 dígitos" required>
+    <textarea placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <div class="info">
+    <p>Dirección: Calle Parrilla #123, Ciudad Sabor</p>
+    <p>WhatsApp: <a href="https://wa.me/521234567890" target="_blank">Envíanos un mensaje</a></p>
+    <div class="redes">
+      <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+    </div>
+  </div>
+
+<div class="mapa">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422.9592255023088!2d-99.01972654453597!3d19.390735178890978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fd29eb87d21f%3A0xf09dd98c0010a0f5!2sAlitas%20y%20Costillas%20Horneadas!5e0!3m2!1ses-419!2smx!4v1748573088700!5m2!1ses-419!2smx" 
+    width="100%" 
+    height="300" 
+    style="border:0; border-radius: 15px;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Mapa ubicación Alitas y Costillas Horneadas">
+  </iframe>
+</div>
+</section>
+
+    <div class="info">
+      <p>Dirección: Calle Parrilla #123, Ciudad Sabor</p>
+      <p>WhatsApp: <a href="https://wa.me/521234567890" target="_blank" rel="noopener noreferrer">Envíanos un mensaje</a></p>
+      <div class="redes" aria-label="Redes sociales">
+        <a href="#" aria-label="Facebook"><img src="img/facebook.svg" alt="Facebook"></a>
+        <a href="#" aria-label="Instagram"><img src="img/instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Señor Costillas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
